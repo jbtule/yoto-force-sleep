@@ -1,0 +1,4 @@
+# PyPI's published yoto-api is still on the old 2.x API shape; the v4
+# architecture this script uses (DayMode, the new async client) is only
+# tagged on GitHub so far. Pinned to a commit for reproducibility.
+yoto-api @ git+https://github.com/cdnninja/yoto_api.git@v4.3.4
